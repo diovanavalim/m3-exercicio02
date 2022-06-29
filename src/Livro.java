@@ -45,9 +45,9 @@ public class Livro implements Documento {
 
     @Override
     public void imprimir() {
-        System.out.print(String.format("Título: %s", this.titulo));
-        System.out.print(String.format("Autor: %s", this.nomeAutor));
-        System.out.print(String.format("Gênero: %s", this.genero));
-        System.out.print(String.format("Número de Páginas: %d", this.numeroPaginas));
+        System.out.println(String.format("Título: %s", this.titulo));
+        System.out.println(String.format("Autor: %s", this.nomeAutor));
+        System.out.println(String.format("Gênero: %s", this.genero));
+        System.out.println(String.format("Número de Páginas: %d", this.numeroPaginas));
     }
 }

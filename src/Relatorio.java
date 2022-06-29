@@ -55,10 +55,10 @@ public class Relatorio implements Documento {
 
     @Override
     public void imprimir() {
-        System.out.print(String.format("Texto: %s", this.texto));
-        System.out.print(String.format("Comprimento do Texto: %d", this.comprimentoTexto));
-        System.out.print(String.format("Número de Páginas: %d", this.numeroPaginas));
-        System.out.print(String.format("Autor: %s", this.autor));
-        System.out.print(String.format("Revisor: %s", this.revisor));
+        System.out.println(String.format("Texto: %s", this.texto));
+        System.out.println(String.format("Comprimento do Texto: %d", this.comprimentoTexto));
+        System.out.println(String.format("Número de Páginas: %d", this.numeroPaginas));
+        System.out.println(String.format("Autor: %s", this.autor));
+        System.out.println(String.format("Revisor: %s", this.revisor));
     }
 }
