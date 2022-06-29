@@ -1,3 +1,7 @@
+package model;
+
+import util.Documento;
+
 public class Livro implements Documento {
     int numeroPaginas;
     String nomeAutor;

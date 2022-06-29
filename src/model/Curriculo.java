@@ -1,3 +1,7 @@
+package model;
+
+import util.Documento;
+
 import java.util.ArrayList;
 
 public class Curriculo implements Documento {

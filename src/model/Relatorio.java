@@ -1,3 +1,7 @@
+package model;
+
+import util.Documento;
+
 public class Relatorio implements Documento {
     String texto;
     int comprimentoTexto;

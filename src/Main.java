@@ -1,3 +1,7 @@
+import model.Curriculo;
+import model.Livro;
+import model.Relatorio;
+
 import java.util.ArrayList;
 
 public class Main {
