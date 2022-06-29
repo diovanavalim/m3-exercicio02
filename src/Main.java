@@ -1,6 +1,7 @@
 import model.Curriculo;
 import model.Livro;
 import model.Relatorio;
+import model.Pessoa;
 
 import java.util.ArrayList;
 
@@ -28,8 +29,9 @@ public class Main {
         qualificacoes.add("R");
         qualificacoes.add("Java");
 
-        Curriculo curriculo = new Curriculo("Diovana Rodrigues Valim", "Rua Luiz Oscar de Carvalho, nº 75",
-                "07/04/2001", "Bacharelado em Sistemas de Informação, UFSC", experiencias, qualificacoes);
+        Pessoa diovana = new Pessoa("Diovana Rodrigues Valim", "Rua Luiz Oscar de Carvalho, nº 75",
+                "07/04/2001", "Bacharelado em Sistemas de Informação, UFSC");
+        Curriculo curriculo = new Curriculo(diovana, experiencias, qualificacoes);
         curriculo.imprimir();
 
         System.out.println(" ");
