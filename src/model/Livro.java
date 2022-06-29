@@ -3,10 +3,10 @@ package model;
 import util.Documento;
 
 public class Livro implements Documento {
-    int numeroPaginas;
-    String nomeAutor;
-    String titulo;
-    String genero;
+    private int numeroPaginas;
+    private String nomeAutor;
+    private String titulo;
+    private String genero;
 
     public Livro(int numeroPaginas, String nomeAutor, String titulo, String genero) {
         this.numeroPaginas = numeroPaginas;

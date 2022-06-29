@@ -3,11 +3,11 @@ package model;
 import util.Documento;
 
 public class Relatorio implements Documento {
-    String texto;
-    int comprimentoTexto;
-    int numeroPaginas;
-    String autor;
-    String revisor;
+    private String texto;
+    private int comprimentoTexto;
+    private int numeroPaginas;
+    private String autor;
+    private String revisor;
 
     public Relatorio(String texto, int comprimentoTexto, int numeroPaginas, String autor, String revisor) {
         this.texto = texto;
